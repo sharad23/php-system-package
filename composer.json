@@ -1,0 +1,25 @@
+{
+    "name": "sharad/systeminfo",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sharad Baidya",
+            "email": "baidyahsrada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sharad\\Systeminfo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
