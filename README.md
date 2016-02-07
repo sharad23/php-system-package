@@ -3,11 +3,9 @@
 Add this to service provider:
 'Sharad\Systeminfo\SysteminfoServiceProvider'
 
-Config 
-    for linux
+Config for linux
     'os' => 'linux' 
-    
-    for windows
+Config for windows
      'os' => 'windows'
      
 command  for storing cpu usage
