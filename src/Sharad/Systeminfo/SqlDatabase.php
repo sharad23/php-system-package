@@ -3,6 +3,8 @@ namespace Sharad\Systeminfo;
 use Sharad\Systeminfo\DatabaseInterface;
 use DB;
 
+
+
 class SqlDatabase implements DatabaseInterface{
         
         public $table;

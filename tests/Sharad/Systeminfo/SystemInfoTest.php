@@ -8,7 +8,7 @@ class SystemInfoTest extends \PHPUnit_Framework_TestCase {
     public function setUp()
     {
         parent::setUp();
-        $this->system  = Mockery::mock('Sharad\Systeminfo\SystemInfoInterface');
+        $this->system  = \Mockery::mock('Sharad\Systeminfo\SystemInfoInterface');
         $this->systemInfo = new SystemInfo($this->system);
         
         
@@ -54,7 +54,7 @@ class SystemInfoTest extends \PHPUnit_Framework_TestCase {
     public function tearDown()
     {
         
-        Mockery::close();
+        \Mockery::close();
     
     }
 }
