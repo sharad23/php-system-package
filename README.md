@@ -13,6 +13,7 @@
     
     You can store the particular CPU reading of particaular instant by using command
     php artisan sharad:record
+    note: for this command to run u need to migrate
 
     Deploying THis package
     First add this to service provider: 'Sharad\Systeminfo\SysteminfoServiceProvider' to app/config.php in the providers.
