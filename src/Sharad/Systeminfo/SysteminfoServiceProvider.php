@@ -35,6 +35,7 @@ class SysteminfoServiceProvider extends ServiceProvider {
 	    elseif(Config::get('systeminfo::os') == 'windows'){
                
               //do something else
+	    	
 	    }
         $this->app->booting(function()
 		{
