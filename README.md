@@ -1,6 +1,8 @@
 # php-system-package
    
-    This Objective of this package is to retive all the necessary information of the server where the project is hosted.
+    This Objective of this package is to retive all the necessary information of the server 
+    where the project is hosted.
+    
     
 
 
